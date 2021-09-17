@@ -1,0 +1,164 @@
+.header {
+    display: flex;
+    height: 48px;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 6px;
+    padding-right: 12px;
+}
+
+.header :hover {
+    text-decoration: underline;
+}
+
+.mail, .pics {
+    height: 24px;
+    top: 50%;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    font: 13px/27px Roboto, RobotoDraft, Arial, sans-serif;
+    font-family: arial, sans-serif;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.tools-svg {
+    fill: rgb(95, 99, 104);
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+.search {
+    height: 44px;
+    width: auto;
+    max-width: 584px;
+    min-width: 100px;
+    border-radius: 24px;
+    border-color: black;
+    border: 1px solid #dfe1e5;
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+}
+
+.search-magnifier-svg {
+    fill: rgb(154, 160, 166);
+    transform-origin: 0px 0px;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 34px;
+    width: 447px;
+    margin-right: 11.5px;
+}
+
+.search-mic-svg {
+    transform-origin: 0px 0px;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    margin-left: 18px;
+    margin-right: 16px;
+}
+
+.search-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.lang {
+    margin-top: 18px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #3c4043;
+    height: 28px;
+}
+
+.lang :hover {
+    text-decoration: underline;
+}
+
+.lower {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    color: rgba(0, 0, 0, .54);
+    background: #f2f2f2;
+}
+
+.lower-elements {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #70757a;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lower-elements div {
+    padding: 15px 0;
+    display: flex;
+}
+
+.lower-elements a {
+    text-decoration: none;
+    color: currentColor;
+    padding: 0 15px;
+    white-space: nowrap;
+    display: block;
+}
+
+.lower-left, .lower-right {
+    height: 16px;
+    min-width: 30%;
+}
+
+.lower-left :hover, .lower-right :hover{
+    text-decoration: underline;
+}
+
+.lower-mid {
+    display: flex;
+    flex-direction: row;
+    height: 17px;
+}
+
+.lower-mid :hover{
+text-decoration: underline;    
+}
