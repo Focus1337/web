@@ -166,7 +166,10 @@ body {
     align-items: center;
 }
 
-#noAcc {}
+/*
+Unused before DB connection
+#account {}
+*/
 
 #register-hypertext {
     text-decoration: none;
