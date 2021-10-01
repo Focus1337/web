@@ -17,15 +17,23 @@
                 <div class="block-background-rect" id="login-block">
                     <div id="login-instagram-logo">
                     </div>
+
+                    <form method="POST" action="https://localhost:44370/weatherforecast">
                     <div class="fieldContainer" id="loginFieldContainer">
-                        <input id="loginInput" class="input">
+                        <input id="loginInput" class="input" type="email" name="email">
+                        
                     </div>
                     <div class="fieldContainer" id="passFieldContainer">
-                        <input id="loginInput" class="input" type="password" placeholder=" ">
+                        <input id="loginInput" class="input" type="password" placeholder=" " name="password">
+                        
                     </div>
-                    <button id="login-button">
+
+                    <button id="login-button" type="submit">
                         Войти
                     </button>
+                    </form>
+
+
                     <div id="separator">
                         <div class="separator-line">
                         </div>
